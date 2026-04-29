@@ -72,7 +72,7 @@ xkcd-data-pipeline/
 ```
 
 ## 5. Database Design
-
+```text
 This project uses PostgreSQL and follows this structure:
 
 XKCD API
@@ -82,7 +82,7 @@ raw_xkcd_comics
 dim_comic + fact_comic_metrics
    ↓
 data quality checks
-
+```
 raw_xkcd_comics stores the comic data directly extracted from the XKCD API.
 The final model uses a Kimball-style dimensional structure.
 
