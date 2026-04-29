@@ -1,0 +1,25 @@
+# Environment variables
+.env
+#cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+.env/
+.venv/
+env/
+
+
+.vscode/
+
+.ipynb_checkpoints/
+
+*.log
+.DS_Store
+Thumbs.db
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+temp/
