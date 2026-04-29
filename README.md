@@ -47,6 +47,7 @@ Anaconda environment
 draw.io for ER diagram
 
 ## 4. Project Structure
+```text
 xkcd-data-pipeline/
 ├── ingestion/
 │   ├── test_api.py
@@ -68,6 +69,7 @@ xkcd-data-pipeline/
 ├── run_pipeline.py
 ├── requirements.txt
 └── README.md
+```
 
 ## 5. Database Design
 
