@@ -123,17 +123,19 @@ Create a PostgreSQL database named:
 
 ```text
 xkcd_db
+```
 
-Create a .env file in the project root:
+Create a `.env` file in the project root:
 
+```env
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=xkcd_db
 DB_USER=postgres
 DB_PASSWORD=your_password_here
-
-A template is provided in .env.example.
 ```
+
+A template is provided in `.env.example`.
 
 ## 8. Run the pipeline
 
