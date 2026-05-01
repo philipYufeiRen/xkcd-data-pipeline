@@ -5,14 +5,14 @@
 This project is a data engineering case study that builds an end-to-end pipeline for ingesting XKCD comic data from the public XKCD API, loading it into a PostgreSQL database, transforming it into analytics-ready tables, and running data quality checks.
 
 The goal is to demonstrate a basic data ingestion and modeling workflow, including:
-
+```text
 - API extraction
 - Database loading
 - Data transformation
 - Dimensional modeling
 - Data quality validation
 - Repeatable pipeline execution
-
+```
 ## 2. Data Source
 
 The data is extracted from the XKCD API.
@@ -27,14 +27,14 @@ https://xkcd.com/{comic_id}/info.0.json
 
 
 The API returns comic metadata such as:
-
+```text
 -Comic ID
 -Title
 -Publish date
 -Image URL
 -Alt text
 -Transcript
-
+```
 ## 3. Tech Stack
 
 Python (3.11)
