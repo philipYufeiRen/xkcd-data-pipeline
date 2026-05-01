@@ -83,13 +83,13 @@ dim_comic + fact_comic_metrics
    ↓
 data quality checks
 ```
-raw_xkcd_comics stores the comic data directly extracted from the XKCD API.
+`raw_xkcd_comics` stores the comic data directly extracted from the XKCD API.
 The final model uses a Kimball-style dimensional structure.
 
-dim_comic stores descriptive comic information.
+`dim_comic` stores descriptive comic information.
 
-fact_comic_metrics stores measurable business metrics.
-check ER diagram under /diagrams for detailed column names and relation.
+`fact_comic_metrics` stores measurable business metrics.
+check ER diagram under `/diagrams` for detailed column names and relation.
 
 ### Transformations
 
