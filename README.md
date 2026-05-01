@@ -146,16 +146,16 @@ python run_pipeline.py
 ```
 
 This command will:
-
+```text
 Create the required tables
 Extract XKCD comic data from the API
 Load raw data into PostgreSQL
 Transform data into the DWH model
 Run data quality checks
-
+```
 
 ## 9. Data Quality Checks
-
+```text
 Data quality checks are implemented in Python using pandas.
 
 The checks validate that:
@@ -169,25 +169,29 @@ Customer reviews are between 1.0 and 10.0
 Fact table rows match dimension table rows
 
 To run checks separately:
-
+```
 ```bash
 python quality/run_data_quality_checks.py
 ```
 
 ## 10. Assumptions and Limitations
-Comic ID is treated as the unique identifier.
-Views and customer reviews are simulated because they are not provided by the XKCD API.
-The project runs locally using PostgreSQL.
-Airflow was considered for orchestration but not implemented in this local version.
+```text
+-Comic ID is treated as the unique identifier.
+-Views and customer reviews are simulated because they are not provided by the XKCD API.
+-The project runs locally using PostgreSQL.
+-Airflow was considered for orchestration but not implemented in this local version.
+```
 
 ## 11. Future Improvements
-Scheduling the pipeline with Airflow
-Running ingestion three times per week
-Adding polling logic for newly released comics
-Using dbt for transformations and tests
-Adding better logging and monitoring
-Containerizing the project with Docker
-Storing raw API responses in cloud storage
+```text
+-Scheduling the pipeline with Airflow
+-Running ingestion three times per week
+-Adding polling logic for newly released comics
+-Using dbt for transformations and tests
+-Adding better logging and monitoring
+-Containerizing the project with Docker
+-Storing raw API responses in cloud storage
+```
 
 ## 12. Summary
 
