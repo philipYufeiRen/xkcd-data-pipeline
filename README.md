@@ -28,12 +28,12 @@ https://xkcd.com/{comic_id}/info.0.json
 
 The API returns comic metadata such as:
 
-Comic ID
-Title
-Publish date
-Image URL
-Alt text
-Transcript
+-Comic ID
+-Title
+-Publish date
+-Image URL
+-Alt text
+-Transcript
 
 ## 3. Tech Stack
 
